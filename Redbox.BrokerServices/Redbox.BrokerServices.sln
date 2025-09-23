@@ -12,6 +12,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceService.ComponentMode
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redbox.BrokerServices.Proxy.ComponentModel", "Redbox.BrokerServices.Proxy.ComponentModel\Redbox.BrokerServices.Proxy.ComponentModel.csproj", "{489B032C-CE36-4DCC-9D82-127F8DDA6034}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redbox.BrokerServices.Proxy", "Redbox.BrokerServices.Proxy\Redbox.BrokerServices.Proxy.csproj", "{5509994E-EF67-4216-A164-291B1AC061DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redbox.Core", "..\Redbox\Redbox.Core\Redbox.Core.csproj", "{AF6CD734-BF15-4031-AE7A-4167E368475D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redbox.Rental.Model", "..\Redbox.Rental\Redbox.Rental.Model\Redbox.Rental.Model.csproj", "{9687A8D2-10F8-418D-B665-688BE17E22EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +40,18 @@ Global
 		{489B032C-CE36-4DCC-9D82-127F8DDA6034}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{489B032C-CE36-4DCC-9D82-127F8DDA6034}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{489B032C-CE36-4DCC-9D82-127F8DDA6034}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5509994E-EF67-4216-A164-291B1AC061DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5509994E-EF67-4216-A164-291B1AC061DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5509994E-EF67-4216-A164-291B1AC061DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5509994E-EF67-4216-A164-291B1AC061DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF6CD734-BF15-4031-AE7A-4167E368475D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF6CD734-BF15-4031-AE7A-4167E368475D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF6CD734-BF15-4031-AE7A-4167E368475D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF6CD734-BF15-4031-AE7A-4167E368475D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9687A8D2-10F8-418D-B665-688BE17E22EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9687A8D2-10F8-418D-B665-688BE17E22EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9687A8D2-10F8-418D-B665-688BE17E22EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9687A8D2-10F8-418D-B665-688BE17E22EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +60,8 @@ Global
 		{EB32034A-3C1F-40CC-96A0-4995D652FCAC} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{F4A8DE2C-EEC2-492A-B00E-2C641E91A9FB} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{626BF22F-7D57-A017-E5D6-1B31F16F3895} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{AF6CD734-BF15-4031-AE7A-4167E368475D} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{9687A8D2-10F8-418D-B665-688BE17E22EE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EFBE78B7-B79C-40C7-8621-BACDD8ADED68}

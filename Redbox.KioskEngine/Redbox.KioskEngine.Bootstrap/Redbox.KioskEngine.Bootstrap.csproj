@@ -1,0 +1,101 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>kioskengine</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net472</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>7.3</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="Redbox.KioskEngine.ComponentModel">
+      <HintPath>..\..\..\..\..\2024_11_07_kiosk2_fresh\Program Files\Redbox\REDS\Kiosk Engine\bin\Redbox.KioskEngine.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsFormsIntegration" />
+    <Reference Include="Redbox.Core">
+      <HintPath>..\..\..\..\..\2024_11_07_kiosk2_fresh\Program Files\Redbox\REDS\Kiosk Engine\bin\Redbox.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Redbox.GetOpts">
+      <HintPath>..\..\..\..\..\2024_11_07_kiosk2_fresh\Program Files\Redbox\REDS\Kiosk Engine\bin\Redbox.GetOpts.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="Redbox.Rental.Services">
+      <HintPath>..\..\..\..\..\2024_11_07_kiosk2_fresh\Program Files\Redbox\REDS\Kiosk Engine\bin\Redbox.Rental.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="Redbox.HardwareServices.Proxy.ComponentModel">
+      <HintPath>..\..\..\..\..\2024_11_07_kiosk2_fresh\Program Files\Redbox\REDS\Kiosk Engine\bin\Redbox.HardwareServices.Proxy.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Redbox.REDS.Framework">
+      <HintPath>..\..\..\..\..\2024_11_07_kiosk2_fresh\Program Files\Redbox\REDS\Kiosk Engine\bin\Redbox.REDS.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Redbox.KioskEngine.Environment">
+      <HintPath>..\..\..\..\..\2024_11_07_kiosk2_fresh\Program Files\Redbox\REDS\Kiosk Engine\bin\Redbox.KioskEngine.Environment.dll</HintPath>
+    </Reference>
+    <Reference Include="Redbox.Rental.Data">
+      <HintPath>..\..\..\..\..\2024_11_07_kiosk2_fresh\Program Files\Redbox\REDS\Kiosk Engine\bin\Redbox.Rental.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Redbox.KioskEngine.IDE">
+      <HintPath>..\..\..\..\..\2024_11_07_kiosk2_fresh\Program Files\Redbox\REDS\Kiosk Engine\bin\Redbox.KioskEngine.IDE.dll</HintPath>
+    </Reference>
+    <Reference Include="Redbox.Rental.Model">
+      <HintPath>..\..\..\..\..\2024_11_07_kiosk2_fresh\Program Files\Redbox\REDS\Kiosk Engine\bin\Redbox.Rental.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.NetFwTypeLib">
+      <HintPath>..\..\..\..\..\2024_11_07_kiosk2_fresh\Program Files\Redbox\REDS\Kiosk Engine\bin\Interop.NetFwTypeLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Redbox.KioskEngine.Kernel">
+      <HintPath>..\..\..\..\..\2024_11_07_kiosk2_fresh\Program Files\Redbox\REDS\Kiosk Engine\bin\Redbox.KioskEngine.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="InputSimulator">
+      <HintPath>..\..\..\..\..\2024_11_07_kiosk2_fresh\Program Files\Redbox\REDS\Kiosk Engine\bin\InputSimulator.dll</HintPath>
+    </Reference>
+    <Reference Include="Redbox.KioskEngine.Drawing">
+      <HintPath>..\..\..\..\..\2024_11_07_kiosk2_fresh\Program Files\Redbox\REDS\Kiosk Engine\bin\Redbox.KioskEngine.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="Redbox.BrokerServices.KernelExtension">
+      <HintPath>..\..\..\..\..\2024_11_07_kiosk2_fresh\Program Files\Redbox\REDS\Kiosk Engine\bin\Redbox.BrokerServices.KernelExtension.dll</HintPath>
+    </Reference>
+    <Reference Include="Redbox.HardwareServices.KernelExtension">
+      <HintPath>..\..\..\..\..\2024_11_07_kiosk2_fresh\Program Files\Redbox\REDS\Kiosk Engine\bin\Redbox.HardwareServices.KernelExtension.dll</HintPath>
+    </Reference>
+    <Reference Include="Redbox.UpdateServices.KernelExtension">
+      <HintPath>..\..\..\..\..\2024_11_07_kiosk2_fresh\Program Files\Redbox\REDS\Kiosk Engine\bin\Redbox.UpdateServices.KernelExtension.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="Redbox.KioskEngine.API">
+      <HintPath>..\..\..\..\..\2024_11_07_kiosk2_fresh\Program Files\Redbox\REDS\Kiosk Engine\bin\Redbox.KioskEngine.API.dll</HintPath>
+    </Reference>
+    <Reference Include="Redbox.KioskDataServices.Proxy.ComponentModel">
+      <HintPath>..\..\..\..\..\2024_11_07_kiosk2_fresh\Program Files\Redbox\REDS\Kiosk Engine\bin\Redbox.KioskDataServices.Proxy.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Redbox.KioskDataServices.Proxy">
+      <HintPath>..\..\..\..\..\2024_11_07_kiosk2_fresh\Program Files\Redbox\REDS\Kiosk Engine\bin\Redbox.KioskDataServices.Proxy.dll</HintPath>
+    </Reference>
+    <Reference Include="Redbox.FraudServices.Proxy.ComponentModel">
+      <HintPath>..\..\..\..\..\2024_11_07_kiosk2_fresh\Program Files\Redbox\REDS\Kiosk Engine\bin\Redbox.FraudServices.Proxy.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Redbox.FraudServices.Proxy">
+      <HintPath>..\..\..\..\..\2024_11_07_kiosk2_fresh\Program Files\Redbox\REDS\Kiosk Engine\bin\Redbox.FraudServices.Proxy.dll</HintPath>
+    </Reference>
+    <Reference Include="Redbox.HardwareServices.Proxy">
+      <HintPath>..\..\..\..\..\2024_11_07_kiosk2_fresh\Program Files\Redbox\REDS\Kiosk Engine\bin\Redbox.HardwareServices.Proxy.dll</HintPath>
+    </Reference>
+    <Reference Include="Redbox.Rental.Kernel">
+      <HintPath>..\..\..\..\..\2024_11_07_kiosk2_fresh\Program Files\Redbox\REDS\Kiosk Engine\bin\Redbox.Rental.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="Redbox.Log.Framework">
+      <HintPath>..\..\..\..\..\2024_11_07_kiosk2_fresh\Program Files\Redbox\REDS\Kiosk Engine\bin\Redbox.Log.Framework.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

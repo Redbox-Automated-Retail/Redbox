@@ -6,7 +6,7 @@
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary
-                    Source="pack://Application:,,,Redbox.Rental.UI;component/Assets/StyleDictionary.xaml" />
+                    Source="pack://Application:,,,/Redbox.Rental.UI;component/Assets/StyleDictionary.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

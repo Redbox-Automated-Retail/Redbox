@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5509994E-EF67-4216-A164-291B1AC061DE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Redbox.BrokerServices.Proxy</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <ApplicationVersion>1.88.0.80</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Redbox.BrokerServices.Proxy</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GenuineChannels, Version=2.5.9.9, Culture=neutral, PublicKeyToken=65fda4a3fde44959, processorArchitecture=MSIL">
+      <HintPath>..\packages\GenuineChannels.2.5.9.11\lib\net46\GenuineChannels.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="Zyan.SafeDeserializationHelpers, Version=0.1.0.0, Culture=neutral, PublicKeyToken=91d1de3df99ea180, processorArchitecture=MSIL">
+      <HintPath>..\packages\Zyan.SafeDeserializationHelpers.0.5.0\lib\net35\Zyan.SafeDeserializationHelpers.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BrokerServicesProxy.cs" />
+    <Compile Include="CancelReservationCallbackEntry.cs" />
+    <Compile Include="LocalCancelReservationResult.cs" />
+    <Compile Include="ReservationCallbackEntry3.cs" />
+    <Compile Include="LocalReservationResult.cs" />
+    <Compile Include="ProductItem.cs" />
+    <Compile Include="ReservationServicesProxy.cs" />
+    <Compile Include="ReservedItem.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Redbox.KioskEngine\Redbox.KioskEngine.ComponentModel\Redbox.KioskEngine.ComponentModel.csproj">
+      <Project>{eb32034a-3c1f-40cc-96a0-4995d652fcac}</Project>
+      <Name>Redbox.KioskEngine.ComponentModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Redbox.Rental\Redbox.Rental.Model\Redbox.Rental.Model.csproj">
+      <Project>{9687a8d2-10f8-418d-b665-688be17e22ee}</Project>
+      <Name>Redbox.Rental.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Redbox\Redbox.Core\Redbox.Core.csproj">
+      <Project>{af6cd734-bf15-4031-ae7a-4167e368475d}</Project>
+      <Name>Redbox.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Redbox\Redbox.Services.KioskBrokerServices.KioskShared\Redbox.Services.KioskBrokerServices.KioskShared.csproj">
+      <Project>{f4a8de2c-eec2-492a-b00e-2c641e91a9fb}</Project>
+      <Name>Redbox.Services.KioskBrokerServices.KioskShared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Redbox.BrokerServices.Proxy.ComponentModel\Redbox.BrokerServices.Proxy.ComponentModel.csproj">
+      <Project>{489b032c-ce36-4dcc-9d82-127f8dda6034}</Project>
+      <Name>Redbox.BrokerServices.Proxy.ComponentModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
