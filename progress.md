@@ -1,0 +1,117 @@
+# List of Known Redbox Assemblies
+
+-   [ ] halsvc
+    -   [x] CameraTuner.exe
+    -   [x] HAL.PackageInstaller.exe
+    -   [x] halmgmtc.exe
+    -   [x] halsvc-win32.exe
+    -   [ ] Redbox.HAL.Camera.Framework.dll
+    -   [ ] Redbox.HAL.ClearimageV1.dll
+    -   [x] Redbox.HAL.Component.Model.dll
+    -   [x] Redbox.HAL.Configuration.dll
+    -   [x] Redbox.HAL.Controller.Framework.dll
+    -   [x] Redbox.HAL.Core.dll
+    -   [x] Redbox.HAL.DataMatrix.Framework.dll
+    -   [x] Redbox.HAL.DataStorage.dll
+    -   [ ] Redbox.HAL.DirectShow.Frame.Plugin.dll
+    -   [x] Redbox.HAL.IPC.Framework.dll
+    -   [x] Redbox.HAL.Script.Framework.dll
+    -   [x] Redbox.HAL.Service.Framework.dll
+-   [ ] HAL-Tools
+    -   [x] HalUtilities.exe
+-   [ ] KioskShell
+    -   [x] KioskShell.exe
+-   [ ] MS HAL Tester
+    -   [x] MSHALTester.exe
+-   [ ] DeviceService
+    -   [ ] BluefinService.Client.Dll
+    -   [x] DeviceService.Client.Core.dll
+    -   [x] DeviceService.Client.dll
+    -   [x] DeviceService.ComponentModel.dll
+    -   [x] DeviceService.Domain.dll
+    -   [x] DeviceService.WebApi.dll
+    -   [ ] DeviceService.WebApi.exe
+    -   [x] RBA_SDK_ComponentModel.dll
+    -   [x] RBA_SDK_STANDARD.dll
+    -   [ ] RBAInstaller.dll
+    -   [ ] RBAInstaller.exe
+    -   [ ] Status.Client.dll
+-   [ ] KioskClient
+    -   [ ] KioskClientService.API.dll
+    -   [ ] KioskClientService.API.exe
+-   [ ] KioskEngine
+    -   [ ] kioskengine.exe - Kiosk Engine main executable
+    -   [ ] Redbox.ControlPanel.UI.exe - UI elements for Control Panel screen
+    -   [ ] Redbox.KioskEngine.PreferenceManager.exe - Some QA preference thing
+    -   [x] Redbox.Rental.UI.exe - UI elements for Rental screen
+    -   [ ] redscc.exe - Bundle Compiler
+    -   [ ] Redbox.BrokerServices.Kernel.dll
+    -   [ ] Redbox.BrokerServices.KernelExtension.dll
+    -   [x] Redbox.BrokerServices.Proxy.ComponentModel.dll
+    -   [x] Redbox.BrokerServices.Proxy.dll
+    -   [x] Redbox.Command.Tokenizer.dll
+    -   [x] Redbox.Compression.dll
+    -   [x] Redbox.Controls.dll
+    -   [x] Redbox.Core.dll
+    -   [ ] Redbox.FMA.UI.dll - Some UI elements for FMA screen
+    -   [ ] Redbox.FraudServices.Proxy.ComponentModel.dll
+    -   [ ] Redbox.FraudServices.Proxy.dll
+    -   [x] Redbox.GetOpts.dll
+    -   [x] Redbox.HAL.Client.dll
+    -   [ ] Redbox.HardwareServices.Kernel.dll
+    -   [ ] Redbox.HardwareServices.KernelExtension.dll
+    -   [x] Redbox.HardwareServices.Proxy.ComponentModel.dll
+    -   [ ] Redbox.HardwareServices.Proxy.dll
+    -   [ ] InputSimulator.dll
+    -   [x] Redbox.IPC.Framework.dll
+    -   [x] Redbox.JSONPrettyPrinter.dll
+    -   [ ] Redbox.KioskDataServices.Proxy.ComponentModel.dll
+    -   [ ] Redbox.KioskDataServices.Proxy.dll
+    -   [ ] Redbox.KioskEngine.API.dll
+    -   [x] Redbox.KioskEngine.ComponentModel.dll
+    -   [ ] Redbox.KioskEngine.Drawing.dll
+    -   [x] Redbox.KioskEngine.Environment.dll
+    -   [x] Redbox.KioskEngine.IDE.dll
+    -   [ ] Redbox.KioskEngine.Kernel.dll
+    -   [ ] Redbox.KioskServices.ComponentModel.dll
+    -   [ ] Redbox.KioskServices.Kernel.dll
+    -   [ ] Redbox.KioskServices.KernelExtension.dll
+    -   [ ] Redbox.KioskServices.Proxy.ComponentModel.dll
+    -   [ ] Redbox.KioskServices.Proxy.dll
+    -   [x] Redbox.Log.Framework.dll
+    -   [x] Redbox.Lua.dll
+    -   [x] Redbox.Macros.dll
+    -   [ ] Redbox.Macros.Functions.dll
+    -   [ ] Redbox.ProductLookupCatalog.dll
+    -   [x] Redbox.REDS.Framework.dll
+    -   [ ] Redbox.Rental.Data.dll
+    -   [ ] Redbox.Rental.Kernel.dll
+    -   [x] Redbox.Rental.Model.dll
+    -   [ ] Redbox.Rental.Services.dll
+    -   [x] Redbox.Services.KioskBrokerServices.KioskShared.dll
+    -   [x] Redbox.Tokenizer.Framework.dll
+    -   [ ] Redbox.UpdateManager.Client.dll
+    -   [ ] Redbox.UpdateManager.ComponentModel.dll
+    -   [x] Redbox.UpdateService.Client.dll
+    -   [x] Redbox.UpdateService.Model.dll
+    -   [ ] Redbox.UpdateServices.Kernel.dll
+    -   [ ] Redbox.UpdateServices.KernelExtension.dll
+    -   [ ] Redbox.UpdateServices.Proxy.ComponentModel.dll
+    -   [ ] Redbox.UpdateServices.Proxy.dll
+    -   [x] Redbox.USB.dll
+-   [ ] Update Client
+    -   [x] UpdateClientService.API.dll
+    -   [ ] UpdateClientService.API.exe
+    -   [x] Redbox.NetCore.Logging.dll
+    -   [x] Redbox.NetCore.Middleware.dll
+-   [ ] Update Manager
+    -   [x] installer-front-end.exe
+    -   [x] update-console.exe
+    -   [x] updatemgrd.exe
+    -   [x] updatemgr-ui.exe
+    -   [x] Redbox.UpdateService.Client.dll
+-   [ ] Misc
+    -   [ ] AuditPol.exe
+    -   [x] inventoryimport.exe
+    -   [ ] KioskAdmin.exe
+    -   [x] kioskutil.exe
