@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>netcoreapp2.2</TargetFramework>
+		<OutputType>Library</OutputType>
+		<ApplicationVersion>1.10.13.0</ApplicationVersion>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="2.2.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="2.2.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="2.2.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.2.0" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.2.0" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
+		<PackageReference Include="Microsoft.Extensions.DependencyModel" Version="2.0.4" />
+		<PackageReference Include="Microsoft.Extensions.Hosting" Version="2.2.0" />
+		<PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="2.2.0" />
+		<PackageReference Include="Microsoft.Extensions.Logging" Version="2.2.0" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="2.2.0" />
+		<PackageReference Include="Microsoft.Extensions.Options" Version="2.2.0" />
+		<PackageReference Include="Serilog" Version="2.12.0" />
+		<PackageReference Include="Serilog.Enrichers.Thread" Version="3.0.0" />
+		<PackageReference Include="Serilog.Extensions.Logging" Version="3.0.1" />
+		<PackageReference Include="Serilog.Settings.Configuration" Version="3.0.1" />
+		<PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\..\DeviceService\DeviceService.ComponentModel\DeviceService.ComponentModel.csproj" />
+		<ProjectReference Include="..\..\DeviceService\DeviceService.Domain\DeviceService.Domain.csproj" />
+		<ProjectReference Include="..\..\RBA_SDK\RBA_SDK_ComponentModel\RBA_SDK_ComponentModel.csproj" />
+		<ProjectReference Include="..\..\RBA_SDK\RBA_SDK_STANDARD\RBA_SDK_STANDARD.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+		<Reference Include="System.Collections" />
+		<Reference Include="System.ComponentModel" />
+		<Reference Include="System.IO.FileSystem" />
+		<Reference Include="System.Linq" />
+		<Reference Include="System.Runtime" />
+		<Reference Include="System.Runtime.Extensions" />
+		<Reference Include="System.Threading" />
+	</ItemGroup>
+
+</Project>
