@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFramework>netstandard2.1</TargetFramework>
+		<TargetFramework>netcoreapp2.2</TargetFramework>
 		<OutputType>Library</OutputType>
 		<ApplicationVersion>1.10.13.0</ApplicationVersion>
 		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
@@ -18,13 +18,9 @@
 		<Configuration>Release</Configuration>
 	</PropertyGroup>
 	<ItemGroup>
-		<Compile Remove="lib\**" />
-		<EmbeddedResource Remove="lib\**" />
-		<None Remove="lib\**" />
-	</ItemGroup>
-	<ItemGroup>
-		<PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="9.0.1" />
-		<PackageReference Include="Microsoft.AspNetCore.SignalR.Client.Core" Version="9.0.1" />
+	  <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="1.1.0" />
+	  <PackageReference Include="Microsoft.AspNetCore.SignalR.Client.Core" Version="1.1.0" />
+	  <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
 	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\DeviceService.ComponentModel\DeviceService.ComponentModel.csproj" />
